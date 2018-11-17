@@ -1,5 +1,5 @@
 # servisama.github.io
-Sitio web del novato
+**Sitio web del novato**
 
 
 ~~~~
@@ -11,3 +11,7 @@ Un carrusel
 ```
 Mi curriculum
 ```
+
+Foto de siempre: ![Alt][1]
+
+[1]: /tiburon.gif "Title"
