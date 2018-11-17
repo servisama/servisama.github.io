@@ -12,6 +12,6 @@ Un carrusel
 Mi curriculum
 ```
 
-Foto de siempre: ![Alt][1]
+Foto de siempre: ![1]
 
-[1]: /tiburon.gif "Title"
+[1]: /Tiburon.gif "Title"
