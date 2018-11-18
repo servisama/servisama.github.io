@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <title>Bootstrap con carrusel</title>
+  <meta charset="utf-8">
+  <!-- Responsiveness --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--   Consulta as .css e os scripts en .js para que funcione Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  /* Veña vale.... aquí si podemos definir tanto esa clase coma img  */
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+
+<body>
+  ​
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    ​
+    <!-- Indicadores: raias debaixo das imaxes-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0"></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item">
+        <img src=" gatito.png" alt="Aquí debería saír a miña imaxe" width="200%" height="200%">
+      </div>
+
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item active" >
+        <img src="vaquita.jpg" alt="Aquí debería saír a miña imaxe">
+      </div>
+      <!-- Imaxe chiquitina -->
+      <div class="carousel-item">
+        <img src="cabalo.png" alt="Aquí debería saír a miña imaxe" width="10%" height="10%">
+      </div>
+
+    </div>
+
+    <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  ​
+</body>
+<hr>
+
+<link rel="stylesheet" href="Stiles.css"></a>
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><h1 class="slide-number">Rojo</h1></div>
+    <div class="slide"><h1 class="slide-number">Azul</h1></div>
+    <div class="slide"><h1 class="slide-number">Verde</h1></div>
+    <div class="slide"><h1 class="slide-number">Amarillo</h1></div>
+    <div class="slide"><h1 class="slide-number">5</h1></div>
+  </div>
+</div>
+
+</html>
